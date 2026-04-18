@@ -1,529 +1,409 @@
-<!DOCTYPE> 
-  <html lang= "en-US">
-  <head> 
-    <meta http-equiv= "Content-Type" content="text/html’ charset=UTF-8">
-    <title> Healthcare Determinants </title> 
-    <meta name= "viewport" content= "initial scale=1, width=device-width">
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Health Determinants</title>
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic,700italic" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="./assets/css/guide.css" media="screen">
+</head>
+<body>
 
-    <link href=‘https://fonts.googleapis.com/css?family=Soutce+sans+pro: 400, 300, 600, 700, 300italic, 400italic, 600italic, 700italic’ rel=‘stylesheet’ type=‘text/css’>
-    <link rel="stylesheet" href="./assets/css/guide.css" media="screen"> 
-  </head> 
-
-    
-      
-<!--navigation-->      
+<!-- Navigation -->
 <div class="topNav">
   <ul>
-        <li><a> Home </a></li>
-    <li><a> Data </a></li>
-    <li><a> Github </a></li>
-    <li><a> Contact </a></li>
+    <li><a href="#">Home</a></li>
+    <li><a href="#">Data</a></li>
+    <li><a href="#">Github</a></li>
+    <li><a href="#">Contact</a></li>
+  </ul>
+</div>
+
+<!-- Header -->
+<div class="header">
+  <h1>Health Determinants</h1>
+</div>
+
+<!-- Main content -->
+<div class="guide">
+
+  <!-- The Problem -->
+  <div class="guide-section" id="problem">
+    <h2 class="guide-section-title">The Problem</h2>
+    <p>Our current health system's main focus is on clinical care. However, it is necessary to view health as a holistic measure of an individual's entire living situation and life experience.</p>
+    <p>The determinants of health extend far beyond medical care and can be used to improve patient care within both the clinical and public health space.</p>
+  </div>
+
+  <hr>
+
+  <!-- Explore the Determinants -->
+  <div class="guide-section" id="explore_det">
+    <h2 class="guide-section-title">Explore the Determinants</h2>
+    <img src="./assets/images/SDoH_simple.png" alt="Determinants of Health Visual" class="centerImage">
+  </div>
+
+  <!-- The Determinants overview -->
+  <div class="guide-section">
+    <h4>The Determinants</h4>
+    <p>The determinants of health act as a holistic way for clinicians and patients to view how different aspects of our lives affect our health.</p>
+    <p>After collecting over 160 metrics from 10 different healthcare organizations, we were able to break down the determinants into five separate groups, as well as determine their effect on health.</p>
+  </div>
+
+  <!-- Individual Behavior -->
+  <div class="guide-section">
+    <h4>Individual Behavior</h4>
+    <p>Our individual behavior affects us the most with a 38% stake in our overall health. From our psychological assets to our sleep patterns to our anxiety levels, the behavior we exhibit each day is a critical determinant for our physical and mental health and well being.</p>
+    <p>The individual behavior determinant is divided into 7 macrodeterminant categories, 15 microdeterminants, and is supported by 13 recorded metrics.</p>
+
+    <div class="flip-btn" id="flip5">View the divisions</div>
+    <div class="panel-content" id="panel5">
+      <h3>Individual Behavior</h3>
+      <p>Below is the breakdown of the individual behavior determinant listing the macrodeterminants and their related microdeterminants and metrics.</p>
+      <ul class="macro">
+        <li>Psychological Assets
+          <ul class="micro">
+            <li>Conscientiousness level</li>
+            <li>Self-efficacy</li>
+            <li>Optimism level</li>
+            <li>Life satisfaction level</li>
+            <li>Cognitive function in late life</li>
+          </ul>
+        </li>
+        <li>Negative Mood and Affects
+          <ul class="micro">
+            <li>Stress level</li>
+            <li>Hopelessness level</li>
+            <li>Anxiety level</li>
+            <li>Depression level</li>
+          </ul>
+        </li>
+        <li>Other Risk Related Behaviors
+          <ul class="micro">
+            <li>Gun behavior</li>
+            <li>Sexual activity</li>
+            <li>Motor vehicle behavior</li>
+          </ul>
+        </li>
+        <li>Physical Activity</li>
+        <li>Sleep Patterns</li>
+        <li>Diet Patterns</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Social Circumstances -->
+  <div class="guide-section">
+    <h4>Social Circumstances</h4>
+    <p>The social circumstances we grew up in, as well as the circumstances of our adult lives, form a 23% stake in our overall health. An individual's social status, early childhood development, and culture all impact our social development and our personal health.</p>
+    <p>The social circumstances determinant is divided into 11 macrodeterminant categories, 14 microdeterminants, and is supported by 7 recorded metrics.</p>
+
+    <div class="flip-btn" id="flip6">View the divisions</div>
+    <div class="panel-content" id="panel6">
+      <h3>Social Circumstances</h3>
+      <p>Below is the breakdown of the social circumstances determinant listing the macrodeterminants and their related microdeterminants and metrics.</p>
+      <ul class="macro">
+        <li>Social Connectedness
+          <ul class="micro">
+            <li>Civic participation</li>
+            <li>Intimate relationships</li>
+            <li>Quality of family support</li>
+            <li>Quality of friends support</li>
+            <li>Quality of community support</li>
+          </ul>
+        </li>
+        <li>Social Status
+          <ul class="micro">
+            <li>Subjective social status</li>
+            <li>Individual income level</li>
+            <li>Language and literacy level</li>
+            <li>Education level</li>
+            <li>Occupation</li>
+          </ul>
+        </li>
+        <li>Culture and Tradition
+          <ul class="micro">
+            <li>Religious involvement</li>
+            <li>Community cultural norms</li>
+            <li>Family cultural norms</li>
+          </ul>
+        </li>
+        <li>Citizenship Status</li>
+        <li>Sexual Orientation</li>
+        <li>Military Service</li>
+        <li>Gender Identity</li>
+        <li>History of Incarceration</li>
+        <li>Discrimination</li>
+        <li>Work Conditions</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Genetics and Biology -->
+  <div class="guide-section">
+    <h4>Genetics and Biology</h4>
+    <p>From a genomic standpoint, understanding our genetic make-up is important when it comes to our overall health, but it is not cost effective to sequence everyone's genome at this point in time. Beyond genetics, our physical body structure and function also contribute to our health, resulting in a 21% total impact.</p>
+    <p>The genetics and biology determinant is divided into 3 macrodeterminant categories, 15 microdeterminants, and is supported by 12 recorded metrics.</p>
+
+    <div class="flip-btn" id="flip7">View the divisions</div>
+    <div class="panel-content" id="panel7">
+      <h3>Genetics and Biology</h3>
+      <p>Below is the breakdown of the genetics and biology determinant listing the macrodeterminants and their related microdeterminants and metrics.</p>
+      <ul class="macro">
+        <li>Genetics
+          <ul class="micro">
+            <li>Single-gene</li>
+            <li>Chromosomal</li>
+            <li>Multifactorial</li>
+            <li>Mitochondrial DNA-linked</li>
+            <li>Gender</li>
+            <li>Race and ethnicity</li>
+          </ul>
+        </li>
+        <li>Body Structure
+          <ul class="micro">
+            <li>Age</li>
+            <li>Height</li>
+            <li>Weight</li>
+            <li>Waist-hip ratio</li>
+          </ul>
+        </li>
+        <li>Body Function
+          <ul class="micro">
+            <li>Bone density</li>
+            <li>Blood pressure</li>
+            <li>Nutritional status</li>
+            <li>Biochemical function</li>
+            <li>Sensory function</li>
+            <li>Movement and balance</li>
+            <li>Strength and robustness</li>
+            <li>Fitness</li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Medical Care -->
+  <div class="guide-section">
+    <h4>Medical Care</h4>
+    <p>As a country, we solely rely on medical data when creating health records for patients. However, most people fail to realize that clinical care only contributes to a small portion of our overall health (11%). While this determinant is still important, it shouldn't be the only measure used.</p>
+    <p>The medical care determinant is divided into 4 macrodeterminant categories, 6 microdeterminants, and is supported by 3 recorded metrics.</p>
+
+    <div class="flip-btn" id="flip9">View the divisions</div>
+    <div class="panel-content" id="panel9">
+      <h3>Medical Care</h3>
+      <p>Below is the breakdown of the medical care determinant listing the macrodeterminants and their related microdeterminants and metrics.</p>
+      <ul class="macro">
+        <li>Access to Healthcare
+          <ul class="micro">
+            <li>Distance to resources</li>
+            <li>Provider availability</li>
+            <li>Vaccines and immunizations</li>
+            <li>Quality of insurance</li>
+          </ul>
+        </li>
+        <li>Quality of Healthcare
+          <ul class="micro">
+            <li>Provider linguistic competency</li>
+            <li>Provider cultural competency</li>
+          </ul>
+        </li>
+        <li>Patient Engagement</li>
+        <li>Health Literacy</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Physical Environment -->
+  <div class="guide-section">
+    <h4>Physical Environment</h4>
+    <p>From the infrastructure of our cities to the quality of the air we breathe, the physical environment is an important factor that contributes to our health, but it has the smallest impact at only 7%.</p>
+    <p>The physical environment determinant is divided into 4 macrodeterminant categories, 16 microdeterminants, and is supported by 4 recorded metrics.</p>
+
+    <div class="flip-btn" id="flip10">View the divisions</div>
+    <div class="panel-content" id="panel10">
+      <h3>Physical Environment</h3>
+      <p>Below is the breakdown of the physical environment determinant listing the macrodeterminants and their related microdeterminants and metrics.</p>
+      <ul class="macro">
+        <li>Pollution
+          <ul class="micro">
+            <li>Tobacco use exposure</li>
+            <li>Air quality</li>
+            <li>Lead exposure levels</li>
+            <li>Carcinogen exposure</li>
+            <li>Water quality</li>
+          </ul>
+        </li>
+        <li>Location
+          <ul class="micro">
+            <li>Access to healthy foods</li>
+            <li>Crime level</li>
+            <li>Transportation quality</li>
+            <li>Crowding conditions</li>
+            <li>Job opportunities</li>
+            <li>Public space quality</li>
+            <li>Educational opportunities</li>
+            <li>Access to vocational training</li>
+            <li>Recreational activity access</li>
+            <li>Walkability</li>
+            <li>Residence quality</li>
+          </ul>
+        </li>
+        <li>Exposure to Firearms</li>
+        <li>Allergens</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Buy Poster -->
+  <div class="action-btn" id="flip">Buy the SDoH Poster</div>
+  <div class="action-panel" id="panel">
+    <p>The SDoH poster is available for purchase for $150. The poster comes framed and is printed at 24" x 36".</p>
+    <p>Buy Now</p>
+  </div>
+
+  <!-- Download PDF -->
+  <div class="action-btn" id="flip2">Download the Free PDF</div>
+  <div class="action-panel" id="panel2">
+    <p>Download: SDoH-poster.jpg</p>
+  </div>
+
+  <hr>
+
+  <!-- Methodology -->
+  <div class="guide-section" id="methodology">
+    <h2 class="guide-section-title">Methodology</h2>
+    <p>A list of determinants were collected from 10 different health organizations and were used to create a single combined list of determinants.</p>
+    <p>The following categories of health determinants were chosen due to their consistency across most organizations: genetics, medical care, social circumstances, environment, and individual behavior.</p>
+    <p>The relative contribution of each of the determinant categories to one's health was found by averaging the estimated values referenced by each primary source.</p>
+  </div>
+
+  <!-- About the Data -->
+  <div class="flip-btn" id="flip4">About this data</div>
+  <div class="panel-content" id="panel4">
+    <h3>Studied Health Organizations</h3>
+    <ul class="macro">
+      <li>National Institute of Health</li>
+      <li>National Committee for Quality Assurance</li>
+      <li>Group Health</li>
+      <li>National Committee on Vital and Health Statistics</li>
+      <li>Capital BlueCross</li>
+      <li>Kentucky Cabinet for Health and Family Services</li>
+      <li>College of Nursing and Health, Wright State University</li>
+      <li>National Academy of Sciences</li>
+      <li>Corepoint Health</li>
+      <li>Care First</li>
     </ul>
-</div> 
-<!--MAIN CONTENT-->      
-<body> 
-  
-  <div class= "header">
-    <h1 class="guide-section-title"> Healthcare Determinants </h1>
-  </div>  
-  
-  <div class="guide"> 
-    <div class= "guide-section" id="problem"> 
-     <h2 class="guide-section-title"> The Problem </h2> 
-      <p>Our current health systems main focus is on clinical care. However, it is necessary to view health as a holistic measure of an individual’s entire living situation and life experience.</p>
-            <p>The determinants of health extend far beyond medical care and can be used to improve patient care within both the clinical and public health space.</p>
-    </div> 
-          
-            <hr>
-          
-<!--Explore the Determinants-->
-  <div class= "guide-section" id="explore_det"> 
-      <h2 class="guide-section-title"> Explore the Determinants </h2>
-         <img src="./assets/images/SDoH_simple.png" alt="Determinants of Health Visual" class="centerImage">
-    </div> 
-              
-<!--The Determinants-->
-    <div>
-        <h4>The Determinants</h4>
-           <p>The determinants of health act as a holistic way for clinicians and patients to view how different aspects of our lives affect our health.</p>
-           <p>After collecting over 160 metrics from 10 different healthcare organizations, we were able to break down the determinants into five separate groups, as well as determine their affect on health.</p>
+
+    <h3>The Math Behind the Determinants</h3>
+    <p>Each determinant category was then averaged based on the values from each of the aforementioned sources.</p>
+    <ul class="micro">
+      <li>Behavior: (50 + 38 + 40 + 39 + 36 + 45 + 30) / 7 = 39.71</li>
+      <li>Social: (15 + 40) / 2 = 27.5</li>
+      <li>Genetics: (20 + 30) / 2 = 25</li>
+      <li>Environment: (20 + 7 + 5 + 5.4 + 3 + 10) / 6 = 8.4</li>
+      <li>Medical care: (10 + 10 + 20) / 3 = 13.33</li>
+    </ul>
+    <p>The ratio for each determinant was found by dividing each average by the total.</p>
+    <ul class="micro">
+      <li>Behavior: 38%</li>
+      <li>Social: 23%</li>
+      <li>Genetics: 21%</li>
+      <li>Medical care: 11%</li>
+      <li>Environment: 7%</li>
+    </ul>
+  </div>
+
+  <hr>
+
+  <!-- Applications -->
+  <div class="guide-section" id="application">
+    <h2 class="guide-section-title">Applications</h2>
+    <p>The implementation of the determinants of healthcare would improve public health across the nation. By having healthcare workers take greater care in learning about a patient's life experience and understanding how these experiences impact their overall health will result in better treatment and diagnoses.</p>
+    <p>The determinants of healthcare will also help establish a standard health record (SHR) that all medical personnel would use when meeting with patients. The creation of a SHR would greatly help with public research on population health, as well as the healthcare system as a whole. The SHR would also result in massive amounts of data available for clinicians, students, patients, and laboratories across the country.</p>
+  </div>
+
+</div><!-- end .guide -->
+
+
+<!-- The Data -->
+<div class="header">
+  <h1>The Data</h1>
+</div>
+
+<div class="guide">
+  <div class="container">
+
+    <!-- Behind the Determinants -->
+    <div class="guide-section" id="behind">
+      <h2 class="guide-section-title">Behind the Determinants</h2>
+      <p>We collected a list of metrics from 10 separate healthcare organizations relating to the data they think is critical to be part of the patient's health record. However, there was no consistency in the metrics used by these organizations: out of the total 169 recorded metrics, only 58 of them overlapped.</p>
+      <div class="component">
+        <ul>
+          <li>80% of the organizations asked for a list of medications</li>
+          <li>50% asked for marital status</li>
+          <li>40% asked for education level</li>
+          <li>30% asked for race/ethnicity</li>
+          <li>10% asked about an individual's financial status</li>
+        </ul>
+      </div>
     </div>
-                     
-<!--Individual Behavior-->
-    <div>
-        <h4>Individual Behavior</h4>
-           <p>Our individual behavior affects us the most with a 38% stake in our overall health. From our psychological assets to our sleep patterns to our anxiety levels, the behavior we exhibit each day is a critical determinant for our physical and mental health and well being.</p>
-           <p>The individual behavior determinant is divided into 7 macrodeterminant categories, 15 microdeterminants, and is supported by 13 recorded metrics. </p>
+
+    <hr>
+
+    <!-- Explore the Data -->
+    <div class="guide-section" id="explore_dat">
+      <h2 class="guide-section-title">Explore the Data</h2>
+      <img src="./assets/images/data_simple.png" alt="Collected Metrics Visual" class="centerImage">
+      <p>Each point on the circle correlates with a metric that was included in an organization's health record. Each color represents one of the ten organizations we studied for this project.</p>
+      <p>To view the entire interactive data visual, please visit our desktop site.</p>
     </div>
-    <!--IB drop down-->
-    <script  src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script>
-      $(document).ready(function(){
-        $("#flip5").click(function(){
-          $("#panel5").slideDown("slow");
-        });
-      });
-    </script>
-    <style>
-        #panel5, #flip5 {
-           padding: 5px;
-           text-align: center;
-        }
 
-        #panel5 {
-           padding: 5px;
-           display: none;
-        }
-    </style>
+    <!-- Download Data -->
+    <div class="action-btn" id="flip3">Download the Data Set</div>
+    <div class="action-panel" id="panel3">
+      <p>Download: SDoH-metrics.xl</p>
+    </div>
 
-    <div id="flip5"><h6>View the divisions</h6></div>
-    <div id="panel5">
-       <h3>Individual Behavior</h3>
-          <p>Below is the break down of the individual behavior determinant listing the macrodeterminants and their related microdeterminants and metrics. </p>    
-            <ul>Psychological Assets</ul>
-                <ul><a>-Consciouentiousness level</a></ul>
-           <ul><a>-Self-efficacy</a></ul>
-                <ul><a>-Optimism level</a></ul>
-                <ul><a>-Life Satisfaction level </a></ul>
-                <ul><a>-Cognitive function in late life</a></ul>
-            <ul>Negative Mood and Affects</ul>
-                <ul><a>-Stress level </a></ul>
-                <ul><a>-Hopelessness level </a></ul>
-                <ul><a>-Anxiety level </a></ul>
-                <ul><a>-Depression level </a></ul>
-            <ul>Other Risk Related Behaviors</ul>
-                <ul><a>-Gun Behavior</a></ul>
-                <ul><a>-Sexual Activity</a></ul>
-                <ul><a>-Motor vehicle behavior</a></ul>
-            <ul>Physical Activity</ul>
-            <ul>Sleep Patterns</ul>
-            <ul>Diet Patterns</ul> 
-    </div>    
-                          
-<!--Social Circumstances-->
-    <div>
-       <h4>Social Circumstances</h4>                            
-       <p>The social circumstances we grew-up in, as well as the circumstances of our adult lives form a 23% stake in our overall health. An individual’s social status, early childhood development and culture all impact our social development and our personal health.</p> 
-       <p>The social circumstances determinant is divided into 11 macrodeterminant categories, 14 microdeterminants and is supported by 7 recorded metrics.</p>
-    </div>                          
-    <!--SC drop down-->
-    <script  src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script>
-      $(document).ready(function(){
-        $("#flip6").click(function(){
-          $("#panel6").slideDown("slow");
-        });
-      });
-    </script>
-    <style>
-        #panel6, #flip6 {
-           padding: 5px;
-           text-align: center;
-        }
+  </div>
+</div><!-- end .guide -->
 
-        #panel6 {
-           padding: 30px;
-           display: none;
-        }
-    </style>
 
-    <div id="flip6"><h6>View the divisions</h6></div>
-    <div id="panel6">
-       <h3>Social Circumstances</h3>
-          <p>Below is the break down of the social circumstances determinant listing the macrodeterminants and their related microdeterminants and metrics. </p>    
-            <ul>Social Connectedness</ul>
-                <ul><a>-Civic participation </a></ul>
-                <ul><a>-Intimate relationships </a></ul>
-                <ul><a>-Quality of family support </a></ul>
-                <ul><a>-Quality of friends support</a></ul>
-                <ul><a>-Quality of community support</a></ul>
-            <ul>Social Status</ul>
-                <ul><a>-Subjective Social Status </a></ul>
-                <ul><a>-Individual income level </a></ul>
-                <ul><a>-Language and literary level</a></ul>
-                <ul><a>-Education level</a></ul>
-                <ul><a>-Occupation</a></ul>
-            <ul>Culture and Tradition</ul> 
-                <ul><a>-Religious involvement</a></ul>
-                <ul><a>-Community cultural norms</a></ul>
-                <ul><a>-Family cultural norms </a></ul>
-            <ul>Citizenship Status</ul>
-            <ul>Sexual Orientation</ul>
-            <ul>Military Service</ul> 
-            <ul>Gender Identity</ul>
-            <ul>History of Incarceration</ul>
-            <ul>Discrimination</ul> 
-            <ul>Work Conditions</ul> 
-    </div>                              
-                          
-<!--Genetics and Biology-->
-    <div>
-      <h4>Genetics and Biology</h4>
-          <p>From a genomic standpoint, undertanding our genetic make-up is important when it comes to our overall health, but it is not cost effective to sequence everyone’s genome at this point in time. Beyond genetics, our physical body structure and function also contribute to our health, resulting in a 21% total impact.</p> 
-           <p>The genetics and biology determinant is divided into 3 macrodeterminant categories, 15 microdeterminants, and is supported by 12 recorded metrics.  </p>
-    </div>                             
-    <!--GB drop down-->
-    <script  src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script>
-      $(document).ready(function(){
-        $("#flip7").click(function(){
-          $("#panel7").slideDown("slow");
-        });
-      });
-    </script>
-    <style>
-        #panel7, #flip7 {
-           padding: 5px;
-           text-align: center;
-        }
+<!-- Contact Us -->
+<div class="header">
+  <h1>Contact Us</h1>
+</div>
 
-        #panel7 {
-           padding: 30px;
-           display: none;
-        }
-    </style>
+<div class="guide">
+  <div class="container">
+    <div class="guide-section" id="contact">
+      <h2 class="guide-section-title">Get in Touch!</h2>
+      <p>If you would like to learn more about the Health Determinants, or would like to find out about other resources available to implement the determinants in your workplace, please send us a message!</p>
+      <div class="component">
+        <ul>
+          <li>Involution Studios</li>
+          <li>Phone: 617-803-7073</li>
+          <li>Email: info@goinvo.com</li>
+          <li>Address: 661 Massachusetts Ave, 3rd Floor, Arlington, MA 02476</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div><!-- end .guide -->
 
-    <div id="flip7"><h6>View the divisions</h6></div>
-    <div id="panel7">
-       <h3>Genetics and Biology</h3>
-          <p>Below is the break down of the genetics and biology determinant listing the macrodeterminants and their related microdeterminants and metrics. </p>    
-            <ul>Genetics</ul>
-                <ul><a>-Single-gene </a></ul>
-                <ul><a>-Chromosomal </a></ul>
-                <ul><a>-Multifactorial </a></ul>
-                <ul><a>-Mitochondrial DNA-linked </a></ul>
-                <ul><a>-Gender </a></ul>
-                <ul><a>-Race and Ethnicity </a></ul>
-            <ul>Body Structure</ul>
-                <ul><a>-Age </a></ul>
-                <ul><a>-Height</a></ul>
-                <ul><a>-Weight</a></ul>
-                <ul><a>-Waist-Hip ration </a></ul>
-            <ul>Body Function</ul> 
-                <ul><a>-Bone density</a></ul>
-                <ul><a>-Blood pressure </a></ul>
-                <ul><a>-Nutritional status </a></ul>
-                <ul><a>-Biochemical function </a></ul>
-                <ul><a>-Sensory function </a></ul>
-                <ul><a>-Movement and balance</a></ul>
-                <ul><a>-Strength and robustness </a></ul>
-                <ul><a>-Fitness </a></ul>
-
-    </div> 
-
-    <!--Medical Care-->
-    <div>
-       <h4>Medical Care</h4>
-         <p>As a country, we solely rely on medical data when creating health records for patients. However, most people fail to realize that clinical care only contributes to a small portion of our overall health (11%). While this determinant is still important, it shouldn’t be the                                             only measure used.</p> 
-         <p>The medical care determinant is divided into 4 macrodeterminant categories, 6 microdeterminants, and is supported by 3 recorded metrics.</p>
-    </div>                              
-    <!--MC drop down-->
-    <script  src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script>
-      $(document).ready(function(){
-        $("#flip9").click(function(){
-          $("#panel9").slideDown("slow");
-        });
-      });
-    </script>
-    <style>
-        #panel9, #flip9 {
-           padding: 5px;
-           text-align: center;
-        }
-
-        #panel9 {
-           padding: 30px;
-           display: none;
-        }
-    </style>
-
-    <div id="flip9"><h6>View the divisions</h6></div>
-    <div id="panel9">
-       <h3>Medical Care</h3>
-          <p>Below is the break down of the medical care determinant listing the macrodeterminants and their related microdeterminants and metrics. </p>    
-            <ul>Access to Healthcare</ul>
-               <ul><a>-Distance to resources </a></ul>
-                <ul><a>-Provider availability </a></ul>
-                <ul><a>-Vaccines and immunizations </a></ul>
-                <ul><a>-Quality of insurance </a></ul>
-            <ul>Quality of Healthcare</ul>
-                <ul><a>-Provider linguistic competancy </a></ul>
-                <ul><a>-Provider cultural competancy </a></ul>
-            <ul>Patient Engagement</ul> 
-            <ul>Health Literacy</ul>
-
-    </div>                           
-                          
-<!--Physical Environment-->
-    <div>
-      <h4>Physical Environment</h4>
-         <p>From the infrastructure of our cities to the quality of the air we breathe, the physical environment is a important factor that contributes to our health, but it has the smallest impact at only 7%.</p> 
-         <p>The physical environment determinant is divided into 4 macrodeterminant categories, 16 microdeterminants, and is supported by 4 recorded metrics.</p>
-    </div>                              
-    <!--PE drop down-->
-    <script  src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script>
-      $(document).ready(function(){
-        $("#flip10").click(function(){
-          $("#panel10").slideDown("slow");
-        });
-      });
-    </script>
-    <style>
-        #panel10, #flip10 {
-           padding: 5px;
-           text-align: center;
-        }
-
-        #panel10 {
-           padding: 30px;
-           display: none;
-        }
-    </style>
-
-    <div id="flip10"><h6>View the divisions</h6></div>
-    <div id="panel10">
-       <h3>Physical Environment</h3>
-          <p>Below is the break down of the physical environment determinant listing the macrodeterminants and their related microdeterminants and metrics. </p>    
-            <ul>Pollution</ul>
-                <ul><a>-Tobacco use exposure </a></ul>
-                <ul><a>-Air quality</a></ul>
-                <ul><a>-Lead exposure levels </a></ul>
-                <ul><a>-Carcinogen exposure </a></ul>
-                <ul><a>-Water quality </a></ul>
-            <ul>Location</ul>
-                <ul><a>-Access to healthy foods</a></ul>
-                <ul><a>-Crime level </a></ul>
-                <ul><a>-Transportation quality </a></ul>
-                <ul><a>-Crowding conditions</a></ul>
-                <ul><a>-Job opportunities </a></ul>
-                <ul><a>-Public space quality</a></ul>
-                <ul><a>-Educational opportunities </a></ul>
-                <ul><a>-Access to vocational training </a></ul>
-                <ul><a>-Recreational activity access</a></ul>
-                <ul><a>-Walkability </a></ul>
-                <ul><a>-Residence quality </a></ul>
-            <ul>Exposure to Firearms</ul> 
-            <ul>Allergens</ul>
-
-    </div>                          
-                     
-          
-
-          <!--Poster buy-->
-          <script  src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-          <script>
-            $(document).ready(function(){
-                $("#flip").click(function(){
-                    $("#panel").slideDown("slow");
-                });
-            });
-            </script>
-
-            <style>
-            #panel, #flip {
-                padding: 5px;
-                text-align: center;
-                background-color: #87C9D9;
-
-            }
-
-            #panel {
-                padding: 50px;
-                display: none;
-            }
-            </style>
- 
-          <div id="flip"><h3>Buy the SDoH Poster</h3></div>
-          <div id="panel"><p>The SDoH poster is available for purchase for $150. The poster comes framed and is printed at 24"x 36"</p><p> Buy Now</p></div>
-     
-          
-          <!--Poster download-->
-          <script  src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-          <script>
-            $(document).ready(function(){
-                $("#flip2").click(function(){
-                    $("#panel2").slideDown("slow");
-                });
-            });
-            </script>
-
-            <style>
-            #panel2, #flip2 {
-                padding: 5px;
-                text-align: center;
-                background-color: #87C9D9;
-
-            }
-
-            #panel2 {
-                padding: 50px;
-                display: none;
-            }
-            </style>
- 
-          <div id="flip2"><h3>Download the Free PDF </h3></div>
-          <div id="panel2"><p>Download: SDoH-poster.jpg</p></div>
-          
-          
-          
-        
-          <!--Methodology-->
-     <div class= "guide-section" id="methodology"> 
-        <h2 class="guide-section-title"> Methodology </h2> 
-        <p>A list of determinants were collected from 10 different health organizations and were used to create a single combined list of determinants.</p>
-                <p>The following categories of health determinants were chosen due to their consistency across most organizations: genetics, medical care, social circumstances, environment, and individual behavior. </p>
-                <p>The relative contribution of each of the determinant categories to one’s health was found by averaging the estimated values referenced by each primary source. </p>
-    </div> 
-          
-<!--About the Data drop down-->
-<script  src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script>
-  $(document).ready(function(){
-    $("#flip4").click(function(){
-      $("#panel4").slideDown("slow");
+  $(document).ready(function () {
+    var flipIds = ['flip', 'flip2', 'flip3', 'flip4', 'flip5', 'flip6', 'flip7', 'flip9', 'flip10'];
+    flipIds.forEach(function (id) {
+      var num = id.replace('flip', '') || '';
+      var panelId = 'panel' + num;
+      $('#' + id).click(function () {
+        $('#' + panelId).slideToggle('fast');
+      });
     });
   });
 </script>
-<style>
-    #panel4, #flip4 {
-       padding: 5px;
-       text-align: center;
-    }
 
-    #panel4 {
-       padding: 30px;
-       display: none;
-    }
-</style>
-
-<div id="flip4"><h6>About this data</h6></div>
-<div id="panel4">
-   <h3>Studied Health Organizations</h3>
-        <ul>-National Institute of Health</ul>
-        <ul>-National Committee for Quality Assurance</ul>
-        <ul>-Group Health</ul> 
-        <ul>-National Committee on Vital and Health Statistics</ul>
-        <ul>-Capital BlueCross</ul> 
-        <ul>-Kentucky Cabinet for Health and Family Services</ul> 
-        <ul>-College of Nursing and Health, Wright State University</ul> 
-        <ul>-National Academy of Scienes</ul> 
-        <ul>-Corepoint Health</ul> 
-        <ul>-Care First</ul>
-
-
-   <h3> The Math Behind the Determinants</h3>
-      <p>Each determinant category was then averaged based on the values from each of the aforementioned sources. </p>
-        <ul><a>Behavior: (50 + 38 + 40 + 39 + 36 + 45 + 30) / 6   = 46.33 </a></ul>
-        <ul><a>Social: (15 + 40) / 2 = 27.5. Genetics: (20 + 30) / 2 = 25</a></ul>
-        <ul><a>Environment: (20 + 7 + 5 + 5.4 + 3 + 10) / 6 = 8.4</a></ul>
-        <ul><a>Medical care: (10 + 10 + 20) / 3 = 13.33</a></ul>
-        <p>The ratio for each determinant was then found by taking the average values found for each of the determinant categories and dividing them by the total determinant value. </p>
-        <ul><a>Behavior: 46.33 / 120.56 = 38.43%</a></ul>
-        <ul><a>Social: 27.5 / 120.56 = 22.81%</a></ul>
-        <ul><a>Genetics: 25 / 120.56 = 20.74%</a></ul>
-        <ul><a>Environment: 8.4 / 120.56 = 7%</a></ul>
-        <ul><a>Medical care: 13.33 / 120.56 = 11.06%. 38.43 + 22.81 + 20.74 + 7 + 11.06 = 100.4%1</a></ul>
-        <p> The final percentages are as follows. </p>
-        <ul>Behavioral determinants at 38%</ul>
-        <ul>Social determinants at 23%</ul>
-        <ul>Genetic determinants at 21%</ul>
-        <ul>Medical care determinants at 11%</ul>
-        <ul>Environmental determinants at 7%</ul>
-
-</div>                
-      <hr>
-      
-          <!--Applications-->
-     <div class= "guide-section" id="application"> 
-         <h2 class="guide-section-title"> Applications </h2>
-         <p> The implementation of the determinants of healthcare would improve public health across the nation. By having healthcare workers take greater care in learning about a patient’s life experience and understanding how these experiences impact their overall health will result in better treatment and diagnoses. </p>
-         <p>The determinants of healthcare will also help establish a standard health record (SHR) that all medical personnel would use when meeting with patient’s. The creation of a SHR would greatly help with public research on population health, as well as the healthcare system as a whole. The SHR would also result in massive amounts of data that would be available for clinicians, students, patients and laboratories across the country. </p>
-     </div> 
-    </div>
-
-
-
-
-<!--The Data--> 
-  <div class="header"> 
-    <h1 class="guide-section-title"> The Data </h1> 
-   </div> 
-    
-        <!--Behind the Determinants--> 
-    <div class="guide"> 
-      <div class="container"> 
-        <div class= "guide-section" id="behind"> 
-          <h2 class="guide-section-title"> Behind the Determinants </h2> 
-            <p>We collected a list of metrics from 10 separate health care organizations relating to the data they think is critical to be part of the patient’s health record. However, there was no consistency in the metrics used by these organizations: out of the total 169 recorded metrics, only 58 of them overlapped.</p>
-            <div class="component"> 
-                          <ul>80% of the organizations asked for a list of medications</ul>
-                <uL>50% asked for marital status </ul>
-                <ul>40% asked for education level </ul>
-                <ul>30% asked for race/ethnicity </ul>
-                                <ul>10% asked about an individual’s financial status</ul>
-            </div>
-        </div> 
-              
-          <hr>
-              
-         <!--Explore the Data-->
-    <div class= "guide-section" id="explore_dat"> 
-      <h2 class="guide-section-title"> Explore the Data </h2>
-                  <img src="./assets/images/data_simple.png" alt="Collected Metrics Visual" align=middle>
-                  <p>Each point on the circle correlates with a metric that was included in an organization’s health record. Each color represents one of the ten organizations we studied for this project.</p>
-           <p>To view the entire interactive data visual, please visit our desktop site. </p>
-        </div> 
-         
-         <!--Data Accesss-->
-          <script  src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-          <script>
-            $(document).ready(function(){
-                $("#flip3").click(function(){
-                    $("#panel3").slideDown("slow");
-                });
-            });
-            </script>
-
-            <style>
-            #panel3, #flip3 {
-                padding: 5px;
-                text-align: center;
-                background-color: #87C9D9;
-
-            }
-
-            #panel3 {
-                padding: 50px;
-                display: none;
-            }
-            </style>
- 
-          <div id="flip3"><h3>Download the Data Set</h3></div>
-              <div id="panel3"><p>Download: SDoH-metrics.xl</p></div>
-   
-  
-         
-          
-<!--Contact US-->          
-   <div class= "header">
-      <h1 class="guide-section-title"> Contact Us </h1>
-   </div>
-   <div class="guide"> 
-   <div class="container"> 
-     <div class= "guide-section" id="contact"> 
-        <h2 class="guide-section-title"> Get in Touch! </h2> 
-        <p>If you would like to learn more about the Healthcare Determinants, or would like to find out about other resources available to implement the determinants in your work place, please send us a message!</p>
-                <div class="component">
-                     <ul> Involution Studios </ul> 
-                     <ul>Phone: 617-803-7073 </ul> 
-                     <ul>Email: info@goinvo.com </ul>
-                     <ul>Address: 661 Massachusetts Ave, 3rd Floor, Arlington, MA, 02476</ul>
-            </div>
-        </div>
-     </div>
-    </div>
-
-    </body>
+</body>
 </html>

@@ -1,108 +1,292 @@
-h1{ 
-  padding: 40px 0 40px 0; 
-  text-align: center; 
-  color: #FFFFFF; 
-  display: block;
-  background-color: #0F93B2;
-  text-transform: uppercase; 
-  font-size: 3.0rem; /* 30px */
-  }
-
-h2{
-  padding: 15px 0 15px 0;
-  color: #0F93B2;
-  text-transform: uppercase;
-  font-size: 2.4rem; /* 24px */
-}
-
-h3{
-  padding: 5px; 
-  font-size: 1.8rem; /* 18px */
-  text-align: center;
-  color: #FFFFFF;
-  background-color:#0F93B2;
-
-
-}
-
-h4{
-  padding: 5px;
-  color: #0F93B2;
-  text-transform: uppercase;
-  font-size: 2.4rem; /* 24px */
-  text-align: center;
-}
-
-h5{
-  padding: 5px; 
-   color: #4A4A4A; 
-  font-size: 1rem;
-}
-
-h6{
-  padding:5px;
-  color: #A8A8AD;
-  font-size: 1rem;
-  text-align: right;
-}
-p{
-  text-align: left;
-  padding: 5px; 
-  color: #4A4A4A; 
-  font-size: 1.4rem; /* 14px */
-  
+/* Base */
+* {
+  box-sizing: border-box;
 }
 
 body {
-  padding: 100px; 
-  width:50%;
-  margin-left:auto;
-  margin-right:auto;
-}
-ul {
-    text-align: left;  
-    margin: 5px;
-    padding: 0;
-    overflow: hidden;
-    color: #4A4A4A; 
-    font-size: 1.4rem; /* 14px */
-    list-style: none;
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 80px 40px 60px;
+  font-family: 'Source Sans Pro', 'Helvetica Neue', Arial, sans-serif;
+  background-color: #FAFAFA;
+  color: #4A4A4A;
 }
 
-ul a{
-    text-align: left;  
-    margin: 5px;
-    padding: 0;
-    overflow: hidden;
-    color: #4A4A4A; 
-    font-size: 1rem; 
+/* Typography */
+h1 {
+  padding: 30px 20px;
+  text-align: center;
+  color: #FFFFFF;
+  background-color: #0F93B2;
+  text-transform: uppercase;
+  font-size: 2.2rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  margin: 0;
 }
+
+h2 {
+  padding: 10px 0 6px;
+  color: #0F93B2;
+  text-transform: uppercase;
+  font-size: 1.6rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  border-bottom: 2px solid #D8EFF5;
+  margin-bottom: 12px;
+}
+
+h3 {
+  padding: 10px 16px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  text-align: center;
+  color: #FFFFFF;
+  background-color: #0F93B2;
+  border-radius: 3px;
+  margin: 0 0 12px;
+}
+
+h4 {
+  padding: 8px 0 4px;
+  color: #0D7A94;
+  text-transform: uppercase;
+  font-size: 1.3rem;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  margin-bottom: 6px;
+}
+
+h5 {
+  padding: 4px 0;
+  color: #4A4A4A;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+p {
+  text-align: left;
+  padding: 4px 0;
+  color: #4A4A4A;
+  font-size: 1rem;
+  line-height: 1.7;
+  margin-bottom: 8px;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #D8EFF5;
+  margin: 28px 0;
+}
+
+/* Navigation */
+.topNav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #0F93B2;
+  z-index: 100;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+}
+
+.topNav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  overflow: visible;
+}
+
+.topNav li {
+  float: none;
+  font-size: 1rem;
+}
+
+.topNav li a {
+  display: block;
+  color: #FFFFFF;
+  padding: 14px 20px;
+  text-align: center;
+  text-decoration: none;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+}
+
+.topNav li a:hover {
+  background-color: rgba(255,255,255,0.2);
+}
+
+/* Layout */
+.header {
+  margin: 0 -40px;
+}
+
+.guide {
+  background-color: #FFFFFF;
+  border-radius: 4px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+  padding: 28px 36px;
+  margin-bottom: 24px;
+}
+
+.guide-section {
+  margin-bottom: 20px;
+}
+
+.container {
+  padding: 0;
+}
+
+.component {
+  margin: 12px 0;
+}
+
+/* Images */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.centerImage {
+  margin: 16px auto;
+  display: block;
+}
+
+/* Lists */
+ul {
+  margin: 4px 0 4px 20px;
+  padding: 0;
+  color: #4A4A4A;
+  font-size: 1rem;
+  line-height: 1.7;
+  list-style: disc;
+}
+
+ul.no-bullet {
+  list-style: none;
+  margin-left: 0;
+}
+
 li {
-    float: left;
-    font-size: 1.4rem; /* 14px */
-    text-decoration: uppercase;
-    
+  float: none;
+  font-size: 1rem;
+  margin-bottom: 2px;
 }
 
 li a {
-    display: block;
-    color: #0F93B2;
-    text-align: center;
-    padding: 14px 16px;
-
+  display: inline;
+  color: #0F93B2;
+  text-decoration: none;
 }
 
-/* Change the link color to #111 (black) on hover */
 li a:hover {
-    background-color: #87C9D9;
+  text-decoration: underline;
 }
 
-img{
-   max-width: 100%; 
+/* Accordion / flip panels */
+.flip-btn {
+  padding: 10px 16px;
+  text-align: center;
+  background-color: #E8F6FA;
+  border: 1px solid #B2DDE9;
+  border-radius: 4px;
+  cursor: pointer;
+  color: #0F93B2;
+  font-size: 0.95rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  user-select: none;
+  margin: 8px 0 0;
+  transition: background-color 0.15s;
 }
 
+.flip-btn:hover {
+  background-color: #C9EAF3;
+}
 
+.flip-btn::before {
+  content: '▶  ';
+  font-size: 0.7rem;
+}
 
-@media screen and (max-width:487px){
-  font-size:100%
+.panel-content {
+  padding: 20px 16px;
+  border: 1px solid #D8EFF5;
+  border-top: none;
+  border-radius: 0 0 4px 4px;
+  background-color: #FFFFFF;
+  display: none;
+}
+
+/* Category list items inside panels */
+.panel-content ul.macro {
+  list-style: none;
+  margin-left: 0;
+  font-weight: 600;
+  color: #0D7A94;
+  margin-top: 10px;
+}
+
+.panel-content ul.micro {
+  list-style: disc;
+  margin-left: 24px;
+  font-weight: 400;
+  color: #4A4A4A;
+}
+
+/* Poster / download buttons */
+.action-btn {
+  padding: 12px 16px;
+  text-align: center;
+  background-color: #0F93B2;
+  border-radius: 4px;
+  cursor: pointer;
+  color: #FFFFFF;
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin: 10px 0 0;
+  transition: background-color 0.15s;
+}
+
+.action-btn:hover {
+  background-color: #0D7A94;
+}
+
+.action-panel {
+  padding: 28px 20px;
+  border: 1px solid #D8EFF5;
+  border-top: none;
+  border-radius: 0 0 4px 4px;
+  background-color: #F5FBFD;
+  display: none;
+  text-align: center;
+}
+
+/* Responsive */
+@media screen and (max-width: 640px) {
+  body {
+    padding: 70px 16px 40px;
+  }
+
+  .header {
+    margin: 0 -16px;
+  }
+
+  .guide {
+    padding: 20px 18px;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  h2 {
+    font-size: 1.3rem;
+  }
+
+  h4 {
+    font-size: 1.1rem;
+  }
 }
